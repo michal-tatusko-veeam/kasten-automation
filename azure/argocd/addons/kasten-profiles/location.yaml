@@ -1,0 +1,20 @@
+# Auto-generated file, do not edit directly
+apiVersion: config.kio.kasten.io/v1alpha1
+kind: Profile
+metadata:
+  name: mtatusko-default-azure-location
+  namespace: kasten-io
+spec:
+  locationSpec:
+    credential:
+      secret:
+        apiVersion: v1
+        kind: secret
+        name: k10secret-mtatusko-default-azurekv
+        namespace: kasten-io
+      secretType: AzStorageAccount
+    objectStore:
+      name: mtatusko-default-container
+      objectStoreType: AZ
+    type: ObjectStore
+  type: Location
