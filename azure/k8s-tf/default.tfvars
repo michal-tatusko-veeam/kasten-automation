@@ -1,13 +1,13 @@
 # GitHub Settings
-github_owner      = "MichaelHaigh"
+github_owner      = "michal-tatusko-veeam"
 github_repo       = "kasten-automation"
-github_repo_url   = "https://github.com/MichaelHaigh/kasten-automation.git"
+github_repo_url   = "https://github.com/michal-tatusko-veeam/kasten-automation.git"
 github_repo_token = "~/.github/kasten-automation"
 
 # Azure Settings
 azr_creds   = "~/.azure/tf-azure.json"
 azr_region  = "eastus"
-creator_tag = "mhaigh"
+creator_tag = "mtatusko"
 
 # VNet Settings
 aks_vnet_cidr       = "10.20.0.0/22"
@@ -33,6 +33,10 @@ authorized_networks = [
   {
     cidr_block   = "203.0.113.30/32"
     display_name = "home_address"
+  },
+  {
+    cidr_block   = trimspace(file(pathexpand("~/current-public-ip")))
+    display_name = "current_public_ip"
   },
 ]
 
