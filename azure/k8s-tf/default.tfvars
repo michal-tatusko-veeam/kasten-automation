@@ -35,8 +35,8 @@ authorized_networks = [
     display_name = "home_address"
   },
   {
-    cidr_block   = trimspace(file(pathexpand("~/current-public-ip")))
-    display_name = "current_public_ip"
+    cidr_block   = var.my_cidr
+    display_name = "my_cidr"
   },
 ]
 
