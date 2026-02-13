@@ -84,11 +84,6 @@ variable "authorized_networks" {
   default     = []
 }
 
-variable "my_cidr" {
-  type        = string
-  description = "Your current public IP address in CIDR format"
-}
-
 # ArgoCD / Deployed Apps Settings
 variable "argocd_deployment" {
   type        = bool

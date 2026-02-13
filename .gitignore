@@ -27,6 +27,3 @@ terraform.rc
 
 # Vim swap files
 *.swp
-
-# Local terraform variables
-local.auto.tfvars

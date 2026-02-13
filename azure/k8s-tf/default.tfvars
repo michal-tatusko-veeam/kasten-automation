@@ -34,10 +34,6 @@ authorized_networks = [
     cidr_block   = "203.0.113.30/32"
     display_name = "home_address"
   },
-  {
-    cidr_block   = var.my_cidr
-    display_name = "my_cidr"
-  },
 ]
 
 # ArgoCD / Deployed Apps Settings
