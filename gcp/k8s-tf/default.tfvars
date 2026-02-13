@@ -1,18 +1,18 @@
 # GitHub Settings
-github_owner      = "MichaelHaigh"
+github_owner      = "michal-tatusko-veeam"
 github_repo       = "kasten-automation"
-github_repo_url   = "https://github.com/MichaelHaigh/kasten-automation.git"
+github_repo_url   = "https://github.com/michal-tatusko-veeam/kasten-automation.git"
 github_repo_token = "~/.github/kasten-automation"
 
 # GCP Settings
-sa_creds           = "~/.gcp/mhaigh-terraform-1a95c215426d.json"
-k10_sa_creds       = "~/.gcp/k10-mhaigh-sa-key.json"
-gcp_sa             = "mhaigh-terraform@rich-access-174020.iam.gserviceaccount.com"
+sa_creds           = "~/.gcp/mtatusko-terraform-174020-3ea1a7e3ff7c.json"
+k10_sa_creds       = "~/.gcp/k10-mtatusko-sa-key.json"
+gcp_sa             = "mtatusko-terraform@rich-access-174020.iam.gserviceaccount.com"
 gcp_project        = "rich-access-174020"
 gcp_project_number = "215900857647"
 gcp_region         = "us-central1"
 gcp_zones          = ["us-central1-b", "us-central1-c"]
-creator_label      = "mhaigh"
+creator_label      = "mtatusko"
 
 # VPC Settings
 gke_subnetwork_cidr   = "10.10.0.0/23"
